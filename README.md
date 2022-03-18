@@ -26,10 +26,17 @@
     -installer le routeur
     -installer laravel
 
-# Creer l'API
+# Creer l'API d'inscription
 
     -creer une base de donnees et les tables: nom de la bdd : ecomm
     -connecter la base de donnees avec laravel
     -creer des controlleurs et des routes
     -envoyer des donnees avec post-man et enregister les utilisateurs
+    -tester l'API
+
+# integration de l'APi
+    -creer un formulaire d'inscription
+    -recuperer les donnees du formulaire
+    -envoyer les donnees a l'API
+    -stocker les resultats en localstorage
     -tester l'API

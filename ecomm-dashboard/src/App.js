@@ -11,7 +11,6 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <Header />
-        <h1>Ecommerce</h1>
         <Routes>
           <Route path="/login" element={<Login />}/>
           <Route path="/register" element={<Register />}/>
