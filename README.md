@@ -47,3 +47,8 @@
     -gerer les redirections des pages de connexion et d'inscription
     -gerer la redirection vers la page des produits
     -tester
+
+# Déconnexion
+    -Ajouter une option de deconnexion dans la barre de navigation
+    -creer une fonction de deconnexion
+    -tester

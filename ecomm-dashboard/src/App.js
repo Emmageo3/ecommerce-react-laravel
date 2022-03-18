@@ -15,12 +15,8 @@ function App() {
         <Routes>
           <Route path="/login" element={<Login />}/>
           <Route path="/register" element={<Register />}/>
-          <Route path="/add"> 
-            <Protected  Cmp={AddProduct}/> {/*element={<AddProduct />}*/}
-          </Route> 
-          <Route path="/update"> 
-            <Protected Cmp={UpdateProduct}/> {/*element={<UpdateProduct />}*/}
-          </Route> 
+          <Route path="/add" element={<AddProduct />}/>
+          <Route path="/update" element={<UpdateProduct />}/>
         </Routes>
       </BrowserRouter>
     </div>
