@@ -73,3 +73,9 @@
     -stocker les images
     -sauvegarder les donner dans la base de donnees
     -tester l'API
+
+# Integration de l'API d'ajout des produits
+    -creer un formulaire simple
+    -definir les champs
+    -envoyer les donnees a l'API
+    -tester l'API
