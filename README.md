@@ -18,4 +18,9 @@
     -pas de redux
     -bootstrap
     -post-man pour tester l'api
-    -
+
+# pré-requis
+    -installer React js
+    -le lancer
+    -installer bootstrap
+    -installer le routeur
