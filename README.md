@@ -65,3 +65,11 @@
     -appeler l'API lors de la soumission
     -Ajouter le localstorage et la redirection
     -tester l'API
+
+#   Ajouter les produits
+    -creer une table dans la base de donnees
+    -creer un controller, un model et une route
+    -envoyer les donnees avec postman
+    -stocker les images
+    -sauvegarder les donner dans la base de donnees
+    -tester l'API
