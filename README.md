@@ -52,3 +52,8 @@
     -Ajouter une option de deconnexion dans la barre de navigation
     -creer une fonction de deconnexion
     -tester
+
+# Connexion
+    -creer une fonction et une route pour la connexion
+    -fetcher and matcher les donner dans la base de donnees
+    -envoyer les donnees depuis postman
