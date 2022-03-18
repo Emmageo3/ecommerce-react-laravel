@@ -1,10 +1,17 @@
-import React, {useState} from 'react';
+import React, {useState, useEffect} from 'react';
 import { useNavigate } from 'react-router-dom';
 import swal from 'sweetalert';
+import Header from './Header';
 
 function Register()
 {
 
+    useEffect( ()=> {
+        if(localStorage.getItem('user-info'))
+        {
+            navigate("/add")
+        }
+    })
     const [name, setName]=useState("")
     const [password, setPassword]=useState("")
     const [email, setEmail]=useState("")
@@ -33,6 +40,8 @@ function Register()
     }
 
     return (
+        <>
+        <Header />
         <div className="col-sm-6 offset-sm-3">
             <h1>Register page</h1>
             <input type="text" value={name} onChange={(e)=>setName(e.target.value)} className="form-control" placeholder="nom" />
@@ -43,6 +52,7 @@ function Register()
             <br />
             <button onClick={signup} className="btn btn-primary">S'inscrire</button>
         </div>
+        </>
     )
 }
 

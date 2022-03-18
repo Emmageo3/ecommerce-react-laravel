@@ -40,3 +40,10 @@
     -envoyer les donnees a l'API
     -stocker les resultats en localstorage
     -tester l'API
+
+# Sécurité
+    -Cacher 's'incrire' apres l'inscription de l'utilisateur
+    -creer une route protégée
+    -gerer les redirections des pages de connexion et d'inscription
+    -gerer la redirection vers la page des produits
+    -tester
