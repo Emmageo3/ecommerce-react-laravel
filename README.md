@@ -57,3 +57,11 @@
     -creer une fonction et une route pour la connexion
     -fetcher and matcher les donner dans la base de donnees
     -envoyer les donnees depuis postman
+
+# Integration de l'API de connexion
+    -tester l'API avec postman
+    -creer le formulaire de connexion
+    -stocker les donnees 
+    -appeler l'API lors de la soumission
+    -Ajouter le localstorage et la redirection
+    -tester l'API
