@@ -79,3 +79,9 @@
     -definir les champs
     -envoyer les donnees a l'API
     -tester l'API
+
+# Lister les produits
+    -creer une fonction et une route pour l'API
+    -recuperer les donnees de la base de donnees
+    -stocker les liens pour acceder aux fichiers
+    -tester l'API
