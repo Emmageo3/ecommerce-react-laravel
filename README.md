@@ -97,3 +97,9 @@
     -creer une route pour la liste des produits
     -utiliser switch
     -tester
+
+# integration de l'API pour la liste des produits
+    -Appeler l'API lors du chargement de la page
+    -Statut des donnees
+    -deployer les donnees
+    -tester
