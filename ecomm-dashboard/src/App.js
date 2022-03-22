@@ -13,7 +13,7 @@ function App() {
       <BrowserRouter>
         {/* <Header />*/}
         <Routes>
-          <Route path="/login" element={<Login />}/>
+          <Route exact path="/login" element={<Login />}/>
           <Route path="/register" element={<Register />}/>
           <Route path="/add" element={<AddProduct />}/>
           <Route path="/update" element={<UpdateProduct />}/>

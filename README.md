@@ -85,3 +85,9 @@
     -recuperer les donnees de la base de donnees
     -stocker les liens pour acceder aux fichiers
     -tester l'API
+
+# Liste des produits et routing
+    -creer un composant pour la liste des produits
+    -creer une route pour la liste des produits
+    -utilisation de Switch
+    -test
