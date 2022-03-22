@@ -6,6 +6,7 @@ import Register from './Register';
 import AddProduct from './AddProduct';
 import UpdateProduct from './UpdateProduct';
 import Protected from './Protected';
+import ProductList from './ProductList';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/register" element={<Register />}/>
           <Route path="/add" element={<AddProduct />}/>
           <Route path="/update" element={<UpdateProduct />}/>
+          <Route path="/list" element={<ProductList />}/>
         </Routes>
       </BrowserRouter>
     </div>

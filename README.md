@@ -91,3 +91,9 @@
     -creer une route pour la liste des produits
     -utilisation de Switch
     -test
+
+# Liste des prosuits, route et switch
+    -creer un composant pour lister les produits
+    -creer une route pour la liste des produits
+    -utiliser switch
+    -tester
