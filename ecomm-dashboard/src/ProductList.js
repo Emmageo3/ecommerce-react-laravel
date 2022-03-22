@@ -16,25 +16,32 @@ function ProductList()
             <Header />
             <h1>Liste des produits</h1>
             
-
-           
-
+                <div className='container'>
+                    <div className='row'>
                         {
-                            data.map((item) => 
-                                <Card style={{ width: '18rem', margin: '1rem' }}>
-                                    <Card.Img variant="top" src={item.file_path} />
-                                    <Card.Body>
-                                    <Card.Title>{item.name}</Card.Title>
-                                    <Card.Text>
-                                        {item.description}
-                                    </Card.Text>
-                                    <Card.Text>
-                                        <h5>{item.price}</h5>
-                                    </Card.Text>
-                                    </Card.Body>
-                                </Card>
-                            )
+                                data.map((item) => 
+                                    <div className='col'>
+                                        <Card style={{ width: '18rem'}}>
+                                            <Card.Img variant="top" src={item.file_path} />
+                                            <Card.Body>
+                                            <Card.Title>{item.name}</Card.Title>
+                                            <Card.Text>
+                                                {item.description}
+                                            </Card.Text>
+                                            <Card.Text>
+                                                <h5>{item.price}</h5>
+                                            </Card.Text>
+                                            </Card.Body>
+                                        </Card>
+                                    </div>
+
+                                )
                         }
+                    </div>
+                </div>
+                
+
+                       
                    
         </div>
     )
