@@ -22,7 +22,7 @@ function ProductList()
                                 data.map((item) => 
                                     <div className='col'>
                                         <Card style={{ width: '18rem'}}>
-                                            <Card.Img variant="top" src={item.file_path} />
+                                            <Card.Img variant="top" src={"http://localhost:8000/" + item.file_path} />
                                             <Card.Body>
                                             <Card.Title>{item.name}</Card.Title>
                                             <Card.Text>

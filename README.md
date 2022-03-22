@@ -103,3 +103,8 @@
     -Statut des donnees
     -deployer les donnees
     -tester
+
+# Creer une API pour la suppression d'un produit
+    -creer une route et un controlleur 
+    -ecrire un code de validation de la suppression (bouton)
+    -tester
