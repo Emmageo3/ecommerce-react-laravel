@@ -1,6 +1,6 @@
 import Header from './Header'
 import React, { useState, useEffect} from 'react';
-import {Table} from 'react-bootstrap';
+import {Table, Card, Button} from 'react-bootstrap';
 
 function ProductList()
 {
@@ -15,26 +15,27 @@ function ProductList()
         <div>
             <Header />
             <h1>Liste des produits</h1>
-            <Table className='table'>
-                <tr>
-                    <td>Id</td>
-                    <td>Nom</td>
-                    <td>Description</td>
-                    <td>Prix</td>
-                    <td>Image</td>
-                </tr>
-                {
-                    data.map((item)=>
-                        <tr>
-                            <td>{item.id}</td>
-                            <td>{item.name}</td>
-                            <td>{item.description}</td>
-                            <td>{item.price}</td>
-                            <td>{item.file_path}</td>
-                        </tr>
-                    )
-                }
-            </Table>
+            
+
+           
+
+                        {
+                            data.map((item) => 
+                                <Card style={{ width: '18rem', margin: '1rem' }}>
+                                    <Card.Img variant="top" src={item.file_path} />
+                                    <Card.Body>
+                                    <Card.Title>{item.name}</Card.Title>
+                                    <Card.Text>
+                                        {item.description}
+                                    </Card.Text>
+                                    <Card.Text>
+                                        <h5>{item.price}</h5>
+                                    </Card.Text>
+                                    </Card.Body>
+                                </Card>
+                            )
+                        }
+                   
         </div>
     )
 }
